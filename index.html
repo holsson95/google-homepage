@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html>
     <style>
+
 .content{
     margin: auto;
     padding: 10px;
 }
 .logo{
     position: absolute;
-    top: 200px;
-    left: 575px;
+    top: 25%;
+    left: 40%;
 }
 .searchbar{
     position: absolute;
-    top: 355px;
-    left: 450px;
+    top: 40%;
+    left: 350px;
     height: 400px;
 }
 .searchbar input{
-    height: 46px;
+    height: 40px;
     width: 584px;
     border-radius: 100px;
 }
-#search-text-input{
-    border-top: thin solid #e5e5e5;
-    border-right: thin solid #e5e5e5;
-    border-bottom: thin solid #e5e5e5;
-    border-left: thin solid #e5e5e5;
-    background: white;
-}
-#searchbutton{
-    position: absolute;
-    text-align:center;
-    width:20px;
-    left: 10px;
-    top:15px;
-    
-}
-.clearfix{
-    overflow: auto;
-}
+.searchbar i { 
+            position: absolute; 
+            top: 15px;
+            left: 15px;
+        } 
+          
+.input-field { 
+        border-top: thin solid #e5e5e5;
+        border-right: thin solid #e5e5e5;
+        border-bottom: thin solid #e5e5e5;
+        border-left: thin solid #e5e5e5;
+        background: white; 
+        padding-inline-start: 50px;
+        } 
+          
+.icon { 
+            padding: 10px; 
+            min-width: 40px; 
+        } 
+          
+
+
 
     </style>
     <body>
-    <head></head>
+    <head><script src="https://kit.fontawesome.com/dbbb365c88.js" crossorigin="anonymous"></script>
+    </head>
     
-<div class="content">
+<section class="content">
         
     <div class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
+    <div style="max-width:400px;margin:auto">
     <div class="searchbar">
-        <form action="https://www.google.com/search" method="GET">
-            <input type="text" id="search-text-input" placeholder="" required>
-            <img src="SearchIcon.png" id="searchbutton"></form>
-            
+                <i class="fas fa-search"></i>
+                <input class="input-field" type="text" required>   
+        </div>
     </div>
-   
-</div>
+    </section>
 
     
 </div>

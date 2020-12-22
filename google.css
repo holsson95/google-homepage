@@ -1,0 +1,43 @@
+
+.content{
+    margin: auto;
+    padding: 10px;
+}
+.logo{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.searchbar{
+    position: absolute;
+    top: 40%;
+    left: 350px;
+    height: 400px;
+}
+.searchbar input{
+    height: 40px;
+    width: 584px;
+    border-radius: 100px;
+}
+.searchbar i { 
+     position: absolute;   
+     top: 15px;
+     left: 15px;
+} 
+          
+.input-field { 
+    border-top: thin solid #e5e5e5;
+    border-right: thin solid #e5e5e5;
+    border-bottom: thin solid #e5e5e5;
+    border-left: thin solid #e5e5e5;
+    background: white; 
+    padding-inline-start: 50px;
+} 
+          
+.icon { 
+            padding: 10px; 
+            min-width: 40px;
+            
+             
+        } 
+          

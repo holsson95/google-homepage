@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html>
     <style>
+.content{
+    margin: auto;
+    padding: 10px;
+}
 .logo{
-
-    display: flex;
-    justify-content: center;}
+    position: absolute;
+    top: 200px;
+    left: 575px;
+}
+.searchbar{
+    position: absolute;
+    top: 355px;
+    left: 450px;
+    height: 400px;
+}
+.searchbar input{
+    height: 46px;
+    width: 584px;
+    border-radius: 100px;
+}
+#search-text-input{
+    border-top: thin solid #e5e5e5;
+    border-right: thin solid #e5e5e5;
+    border-bottom: thin solid #e5e5e5;
+    border-left: thin solid #e5e5e5;
+    background: white;
+}
+#searchbutton{
+    position: absolute;
+    text-align:center;
+    width:20px;
+    left: 10px;
+    top:15px;
+    
+}
+.clearfix{
+    overflow: auto;
+}
 
     </style>
     <body>
     <head></head>
     
-    <div class="content">
+<div class="content">
         
     <div class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
-
+    <div class="searchbar">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" id="search-text-input" placeholder="" required>
+            <img src="SearchIcon.png" id="searchbutton"></form>
+            
+    </div>
+   
 </div>
+
     
 </div>
 </body>

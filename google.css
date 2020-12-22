@@ -1,28 +1,28 @@
 
 .content{
-    margin: auto;
-    padding: 10px;
+    text-align:center;
+    margin-top: 15%;
+    padding-bottom: 15%;
 }
+
 .logo{
-    position: absolute;
-    top: 25%;
-    left: 40%;
+    margin-bottom: 25px;
 }
 .searchbar{
-    position: absolute;
-    top: 40%;
-    left: 350px;
-    height: 400px;
+    margin-bottom: 25px;
+    left: 25%;
+    
 }
 .searchbar input{
+    margin-bottom: 25px;
     height: 40px;
     width: 584px;
     border-radius: 100px;
+    
 }
 .searchbar i { 
-     position: absolute;   
-     top: 15px;
-     left: 15px;
+    position: absolute;   
+    padding: 15px
 } 
           
 .input-field { 
@@ -33,11 +33,44 @@
     background: white; 
     padding-inline-start: 50px;
 } 
-          
-.icon { 
-            padding: 10px; 
-            min-width: 40px;
-            
-             
-        } 
-          
+.button1 {
+    display:inline-block;
+    border:0px;  
+    padding: 0px 16px;
+    background-color: #f8f9fa;
+    color:#202124;
+    font-size: 14px;
+    margin: 11px 4px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    line-height: 27px;
+    height: 37px;
+}
+.button2 {
+    display:inline-block;
+    border:0px;   
+    padding: 0px 16px;
+    background-color: #f8f9fa;
+    color:#202124;
+    font-size: 14px;
+    margin: 11px 4px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    line-height: 27px;
+    height: 37px;
+}
+.button1:hover{
+    border:1px solid #dadce0;  
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
+    }
+.button2:hover{
+        border:1px solid #dadce0;  
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
+        }
+
+    
+    
+
+

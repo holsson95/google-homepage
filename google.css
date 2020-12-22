@@ -66,9 +66,51 @@
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
     }
 .button2:hover{
-        border:1px solid #dadce0;  
-        box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
-        }
+    border:1px solid #dadce0;  
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
+    }
+nav{
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 100;
+    
+}
+
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+li{
+    
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+
+a li{
+    color: black;
+    padding: 30px 30px; 
+    position: top;
+    top: 0;
+    margin-left: 10%; 
+    
+}
+
+a:link{
+    text-decoration: none;
+    color:#202124;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 
     
     
